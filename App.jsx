@@ -2,6 +2,7 @@ import { Button, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import First from './src/components/First'
 import JSX from './src/components/JSX'
+import Onpress from './src/components/Onpress'
 
 const App = () => {
   const name = 'hamza'
@@ -11,7 +12,8 @@ const App = () => {
       <Button title='press me' />
       <First /> */}
       {/* <Text>My name is {name}</Text> */}
-      <JSX/>
+      {/* <JSX/> */}
+      <Onpress />
     </View>
     
   )
